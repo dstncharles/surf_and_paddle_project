@@ -2,6 +2,9 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
 }
 .wavepic {
   height: 550px;
@@ -38,4 +41,23 @@ h2 {
 }
 footer {
   background-color: black;
+  color: white;
+}
+.footercontent {
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+.tiytag, footer ul, footer li, {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer ul {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+li {
+  display: inline-block;
 }
