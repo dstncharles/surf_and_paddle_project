@@ -25,13 +25,18 @@
 h2 {
   text-align: center;
 }
-h3 {
+.maintext {
   font-family: 'font-family: 'Oswald', sans-serif;', cursive;
-}
-p {
   font-family: 'Open Sans', sans-serif;
   width: 500px;
   margin: 20px auto;
   padding: 50px;
   border-width: 10px;
+}
+.picbox {
+  background-color: gray;
+}
+footer {
+  background-color: black;
+  
 }
