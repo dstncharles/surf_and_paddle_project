@@ -3,15 +3,35 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.wavepic{
-  height: 400px;
-  background-image: url("Images/wavepic.jpg");
-  background-position: center center;
+.wavepic {
+  height: 550px;
+  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/wavepic.jpg");
   background-size: cover;
+  background-position: center center;
   position: relative;
+  display: block;
 }
-.wavepic h1{
-    text-align: center;
-    font-family: 'font-family: 'Oswald', sans-serif;', cursive;
-    padding: 5px;
-  }
+.wavepic h1 {
+  text-align: center;
+  font-family: 'font-family: 'Oswald', sans-serif;', cursive;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 100px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-family: 'font-family: 'Oswald', sans-serif;', cursive;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border-width: 10px;
+}
