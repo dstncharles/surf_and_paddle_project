@@ -28,6 +28,12 @@ header ul {
   top: 50%;
   transform: translateY(-50%);
 }
+.headlinetext {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+}
 .infoblock {
   max-width: 980px;
   margin: 0 auto;
@@ -42,6 +48,8 @@ header ul {
   padding: 50px;
 }
 .addbox {
+  font-family: 'font-family: 'Oswald', sans-serif;', cursive;
+  font-family: 'Open Sans', sans-serif;
   background-color: blue;
   display: inline-block;
   width: 363px;
