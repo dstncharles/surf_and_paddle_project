@@ -19,6 +19,9 @@
   margin: 0 auto;
   position: relative;
 }
+a {
+  text-decoration: none;
+}
 header ul {
   position: absolute;
   right: 0;
