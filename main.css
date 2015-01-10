@@ -6,7 +6,7 @@
   padding: 0;
   vertical-align: middle;
 }
-.headnav, h3{
+.headnav, h3 {
   font-family: 'Oswald', sans-serif;
 }
 .headspan, .headlinetext, h2, p, h4, .addbox, .footspan, .footnav {
@@ -57,6 +57,15 @@ h2 {
   display: inline-block;
   width: 363px;
   padding: 50px
+}
+.headpic {
+  background-image: url("images/head.jpg");
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
 }
 .wavepic ul {
   float: right;
