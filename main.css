@@ -6,7 +6,7 @@
   padding: 0;
   vertical-align: middle;
 }
-/* .wavepic {
+.wavepic {
   height: 373px;
   background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/wavepic.jpg");
   background-size: cover;
@@ -27,6 +27,13 @@ a {
   top: 50%;
   text-align: center;
   width: 100%;
+}
+h2 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  position: inherit;
 }
 .infoblock {
   max-width: 980px;
@@ -77,6 +84,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
 }
 .beerpic {
   background-image: url("images/beer.jpg");
@@ -86,8 +94,8 @@ h2 {
 }
 .liquorpic {
   background-image: url("images/liquor.jpg");
-} */
-/* footer {
+}
+footer {
   background-color: black;
   color: white;
 }
@@ -109,14 +117,5 @@ footer ul {
   transform: translateY(-50%);
 }
 li {
-  display: inline-block;
-} */
-
-footer {
-  background-color: red;
-  text-color: black;
-}
-.footnav {
-  float: right;
   display: inline-block;
 }
