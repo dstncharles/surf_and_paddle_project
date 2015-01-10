@@ -13,15 +13,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 .wavepic {
-  height: 373px;
+  height: 522px;
   background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/wavepic.jpg");
   background-size: cover;
   background-position: center center;
   position: relative;
   display: block;
-}
-.wavepic ul {
-  float: right;
 }
 .wavepic h1 {
   text-align: center;
@@ -40,6 +37,11 @@
 }
 a {
   text-decoration: none;
+}
+.headnav {
+  display: inline-block;
+  float: right;
+  padding: 17px;
 }
 .headlinetext {
   position: absolute;
@@ -73,6 +75,7 @@ h2 {
 }
 .headpic {
   background-image: url("images/head.jpg");
+  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/head.jpg");
   border-radius: 100%;
   background-size: cover;
   background-position: center center;
@@ -86,7 +89,7 @@ h2 {
 }
 h5 {
   font-size: 56px;
-  margin: 0;
+  text-align: center;
 }
 .picbox div {
   height: 347px;
@@ -132,10 +135,8 @@ footer {
 }
 footer ul {
   position: absolute;
-  float: right;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 89%;
 }
 li {
   display: inline-block;
