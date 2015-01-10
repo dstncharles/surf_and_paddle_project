@@ -6,8 +6,8 @@
   padding: 0;
   vertical-align: middle;
 }
-.wavepic {
-  height: 550px;
+/* .wavepic {
+  height: 373px;
   background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/wavepic.jpg");
   background-size: cover;
   background-position: center center;
@@ -21,12 +21,6 @@
 }
 a {
   text-decoration: none;
-}
-header ul {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .headlinetext {
   position: absolute;
@@ -55,9 +49,6 @@ header ul {
   width: 363px;
   padding: 50px
 }
-.sricon {
-  float: right;
-}
 .wavepic ul {
   float: right;
 }
@@ -75,10 +66,28 @@ header ul {
 h2 {
   text-align: center;
 }
-.picbox {
-  background-color: gray;
+.surferpic {
+  background-image: url("images/surfer.jpg");
 }
-footer {
+.image {
+  height: 292px;
+  width: 25%;
+  display: inline-block;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.beerpic {
+  background-image: url("images/beer.jpg");
+}
+.beardguypic {
+  background-image: url("images/beardguy.jpg");
+}
+.liquorpic {
+  background-image: url("images/liquor.jpg");
+} */
+/* footer {
   background-color: black;
   color: white;
 }
@@ -90,13 +99,24 @@ footer {
 .tiytag, footer ul, footer li, {
   display: inline-block;
   vertical-align: middle;
+  display: inline-block;
 }
 footer ul {
   position: absolute;
+  float: right;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
 }
 li {
+  display: inline-block;
+} */
+
+footer {
+  background-color: red;
+  text-color: black;
+}
+.footnav {
+  float: right;
   display: inline-block;
 }
