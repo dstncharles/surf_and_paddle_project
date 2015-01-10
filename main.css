@@ -92,7 +92,7 @@ h5 {
   text-align: center;
 }
 .picbox div {
-  height: 347px;
+  height: 330px;
   width: 25%;
   display: inline-block;
   float: left;
@@ -103,15 +103,19 @@ h5 {
 }
 .surferpic {
   background-image: url("images/surfer.jpg");
+  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/surfer.jpg");
 }
 .beerpic {
   background-image: url("images/beer.jpg");
+  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/beer.jpg");
 }
 .beardguypic {
   background-image: url("images/beardguy.jpg");
+  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/beardguy.jpg");
 }
 .liquorpic {
   background-image: url("images/liquor.jpg");
+  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/liquor.jpg");
 }
 .picbartext {
   position: absolute;
