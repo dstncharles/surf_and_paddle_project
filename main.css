@@ -6,7 +6,7 @@
   padding: 0;
   vertical-align: middle;
 }
-.headnav, h3 {
+.headnav, h3, h5 {
   font-family: 'Oswald', sans-serif;
 }
 .headspan, .headlinetext, h2, p, h4, .addbox, .footspan, .footnav {
@@ -19,6 +19,19 @@
   background-position: center center;
   position: relative;
   display: block;
+}
+.wavepic ul {
+  float: right;
+}
+.wavepic h1 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 100px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
 }
 .logosearch {
   max-width: 980px;
@@ -53,7 +66,7 @@ h2 {
   padding: 50px;
 }
 .addbox {
-  background-color: blue;
+  background-color: gray;
   display: inline-block;
   width: 363px;
   padding: 50px
@@ -62,26 +75,18 @@ h2 {
   background-image: url("images/head.jpg");
   border-radius: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  height: 100px;
-  width: 100px;
-}
-.wavepic ul {
-  float: right;
-}
-.wavepic h1 {
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 100px;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: white;
+  height: 84px;
+  width: 84px;
+  margin: auto;
 }
 h2 {
   text-align: center;
+}
+h5 {
+  font-size: 56px;
+  margin: 0;
 }
 .picbox div {
   height: 347px;
