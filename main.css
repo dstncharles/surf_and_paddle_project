@@ -6,6 +6,12 @@
   padding: 0;
   vertical-align: middle;
 }
+h1, h3, h4, .picbartext {
+  font-family: 'Oswald', sans-serif;
+}
+{
+  font-family: 'Open Sans', sans-serif;
+}
 .wavepic {
   height: 373px;
   background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/wavepic.jpg");
@@ -41,16 +47,12 @@ h2 {
   position: relative;
 }
 .maintext {
-  font-family: 'font-family: 'Oswald', sans-serif;', cursive;
-  font-family: 'Open Sans', sans-serif;
   display: inline-block;
   background-color: gray;
   width: 613px;
   padding: 50px;
 }
 .addbox {
-  font-family: 'font-family: 'Oswald', sans-serif;', cursive;
-  font-family: 'Open Sans', sans-serif;
   background-color: blue;
   display: inline-block;
   width: 363px;
@@ -61,7 +63,6 @@ h2 {
 }
 .wavepic h1 {
   text-align: center;
-  font-family: 'font-family: 'Oswald', sans-serif;', cursive;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -73,18 +74,18 @@ h2 {
 h2 {
   text-align: center;
 }
-.surferpic {
-  background-image: url("images/surfer.jpg");
-}
-.image {
-  height: 292px;
+.picbox div {
+  height: 347px;
   width: 25%;
   display: inline-block;
   float: left;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
+  position: relative;
+}
+.surferpic {
+  background-image: url("images/surfer.jpg");
 }
 .beerpic {
   background-image: url("images/beer.jpg");
@@ -94,6 +95,11 @@ h2 {
 }
 .liquorpic {
   background-image: url("images/liquor.jpg");
+}
+.picbartext {
+  position: absolute;
+  font-size: 25px bottom: 0;
+  color: white;
 }
 footer {
   background-color: black;
