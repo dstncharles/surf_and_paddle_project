@@ -6,10 +6,10 @@
   padding: 0;
   vertical-align: middle;
 }
-h1, h3, h4, .picbartext {
+.headnav, h3{
   font-family: 'Oswald', sans-serif;
 }
-{
+.headspan, .headlinetext, h2, p, h4, .addbox, .footspan, .footnav {
   font-family: 'Open Sans', sans-serif;
 }
 .wavepic {
@@ -98,7 +98,8 @@ h2 {
 }
 .picbartext {
   position: absolute;
-  font-size: 25px bottom: 0;
+  font-size: 25px;
+  bottom: 0;
   color: white;
 }
 footer {
