@@ -71,12 +71,13 @@ h2 {
   background-color: gray;
   width: 613px;
   padding: 50px;
+  float: left;
 }
 .addbox {
   background-color: gray;
   display: inline-block;
   width: 363px;
-  padding: 50px
+  padding: 50px;
 }
 .headpic {
   background-image: url("images/head.jpg");
@@ -88,6 +89,11 @@ h2 {
   height: 84px;
   width: 84px;
   margin: auto;
+}
+.addbox h6 {
+  color: #0068B6;
+  font-size: 17px;
+  text-align: center;
 }
 .socialbar {
   display: inline-block;
@@ -101,6 +107,10 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
+.addbox h3 {
+  font-size: 17px;
+  color: #0068B6;
 }
 h2 {
   text-align: center;
