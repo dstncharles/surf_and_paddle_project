@@ -249,6 +249,7 @@ footer {
   max-width: 980px;
   margin: 0 auto;
   position: relative;
+  pointer-events: none;
 }
 .tiytag, footer ul, footer li, {
   display: inline-block;
