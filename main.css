@@ -140,19 +140,99 @@ h5 {
 }
 .surferpic {
   background-image: url("images/surfer.jpg");
-  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/surfer.jpg");
+}
+.surferpic::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 115, 172, 0.5);
+  transition: 500ms;
+}
+.surferpic:hover::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
 }
 .beerpic {
   background-image: url("images/beer.jpg");
-  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/beer.jpg");
+}
+.beerpic::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 115, 172, 0.5);
+  transition: 500ms;
+}
+.beerpic:hover::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
 }
 .beardguypic {
   background-image: url("images/beardguy.jpg");
-  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/beardguy.jpg");
+}
+.beardguypic::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 115, 172, 0.5);
+  transition: 500ms;
+}
+.beardguypic:hover::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
 }
 .liquorpic {
   background-image: url("images/liquor.jpg");
-  background: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("images/liquor.jpg");
+}
+.liquorpic::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 115, 172, 0.5);
+  transition: 500ms;
+}
+.liquorpic:hover::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
 }
 .picbartext {
   position: absolute;
