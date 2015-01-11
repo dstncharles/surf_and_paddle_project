@@ -42,6 +42,7 @@ a {
   display: inline-block;
   float: right;
   padding: 17px;
+  color: #003253;
 }
 .headlinetext {
   position: absolute;
@@ -49,12 +50,16 @@ a {
   text-align: center;
   width: 100%;
 }
+span {
+  color: #003253;
+}
 h2 {
   position: absolute;
   top: 50%;
   text-align: center;
   width: 100%;
   position: inherit;
+  color: #003253;
 }
 .infoblock {
   max-width: 980px;
@@ -97,9 +102,16 @@ h2 {
 h2 {
   text-align: center;
 }
+h3 {
+  color: #003253;
+}
+h4 {
+  color: #0068B6;
+}
 h5 {
   font-size: 57px;
   text-align: center;
+  color: #003253;
 }
 .picbox div {
   height: 330px;
@@ -134,7 +146,7 @@ h5 {
   color: white;
 }
 footer {
-  background-color: black;
+  background-color: #003253;
   color: white;
 }
 .footercontent {
