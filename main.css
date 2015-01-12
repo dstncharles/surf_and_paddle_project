@@ -102,11 +102,11 @@ h2 {
   font-size: 17px;
   text-align: center;
 }
-/* .commentbut,.laterbut,.sharebut{
+.commentbut,.laterbut,.sharebut{
   max-width: 154px;
   max-height: 30px;
   display: inline-block;
-  background: #A0B3C0; */
+  background: #A0B3C0;
 }
 .socialbar {
   display: inline-block;
