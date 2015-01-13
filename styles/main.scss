@@ -12,6 +12,35 @@ $secondary-font: oswald;
 
 $blue-filter: linear-gradient( rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75));
 
+@mixin picalign {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+}
+@mixin hovbef {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 115, 172, 0.5);
+  transition: 500ms;
+
+}
+@mixin hovaft {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+
+}
 // * {
 //   border: 1px solid red;
 // }
@@ -41,9 +70,7 @@ h4,
 .wavepic {
   height: 522px;
   background: $blue-filter, url("../images/wavepic.jpg");
-  background-size: cover;
-  background-position: center center;
-  position: relative;
+  @include picalign;
   display: block;
 }
 .wavepic h1 {
@@ -141,10 +168,9 @@ h2 {
   background: $blue-filter, url("../images/chickpb2.jpg");
   height: 300px;
   width: 270px;
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  position: relative;
+  @include picalign;
+
 }
 .chickpb a {
   height: 29px;
@@ -174,106 +200,45 @@ h5 {
   width: 25%;
   display: inline-block;
   float: left;
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
+  @include picalign;
+
 }
 .surferpic {
   background-image: url("../images/surfer.jpg");
 }
 .surferpic::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(38, 115, 172, 0.5);
-  transition: 500ms;
+  @include hovbef;
 }
 .surferpic:hover::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: transparent;
+  @include hovaft;
 }
 .beerpic {
   background-image: url("../images/beer.jpg");
 }
 .beerpic::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(38, 115, 172, 0.5);
-  transition: 500ms;
+  @include hovbef;
 }
 .beerpic:hover::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: transparent;
+  @include hovaft;
 }
 .beardguypic {
   background-image: url("../images/beardguy.jpg");
 }
 .beardguypic::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(38, 115, 172, 0.5);
-  transition: 500ms;
+  @include hovbef;
 }
 .beardguypic:hover::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: transparent;
+  @include hovaft;
 }
 .liquorpic {
   background-image: url("../images/liquor.jpg");
 }
 .liquorpic::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(38, 115, 172, 0.5);
-  transition: 500ms;
+  @include hovbef;
 }
 .liquorpic:hover::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: transparent;
+  @include hovaft;
 }
 .picbartext {
   position: absolute;
